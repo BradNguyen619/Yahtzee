@@ -25,13 +25,8 @@ public class Yahtzee
         die5.roll();
     }
     
-    public int getValue() {
-        return die1.getValue()+die2.getValue();
-    }
-    
-    public int rollAndGetValue() {
-        roll();
-        return getValue();
+    public int summarize() {
+        System.out.println("1-"
     }
     
 }
