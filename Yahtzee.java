@@ -1,9 +1,7 @@
 public class Yahtzee
 {
     Die6[] dice = new Die6[5];
-    /**
-     * Constructor for objects of class Dice
-     */
+    
     public Yahtzee()
     {
         for (int i = 0; i < dice.length; i++) {
